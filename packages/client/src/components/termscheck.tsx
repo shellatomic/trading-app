@@ -32,6 +32,9 @@ export default function Termcheck() {
          conditions
         </a>
       </div>
+      <div>
+        <button disabled={isChecked?false:true} className={`${isChecked?"":"cursor-not-allowed"} px-4 py-2 m-1 border bg-gray-100 rounded`}>Continue</button>
+      </div>
       {showModal &&
         <>
           <div
